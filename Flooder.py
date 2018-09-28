@@ -73,8 +73,8 @@ class Flooder:
         if len(method) == 0:
             print "No methods left to try, not starting."
             self.initsuccess = False
-            
-
+		
+	
     def start(self):
         if len(self.__processes) > 0 or not self.initsuccess:
             return
